@@ -23,3 +23,30 @@ C:\Users\budko\Рабочий стол\Универ\visual\LABO JUMBO\LABO JUMBO
 C:\Users\budko\Рабочий стол\Универ\visual\LABO JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO.csproj.Up2Date
 C:\Users\budko\Рабочий стол\Универ\visual\LABO JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO.exe
 C:\Users\budko\Рабочий стол\Универ\visual\LABO JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO.pdb
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\bin\Debug\LABO JUMBO.exe.config
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\bin\Debug\LABO JUMBO.exe
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\bin\Debug\LABO JUMBO.pdb
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\bin\Debug\MaterialDesignColors.dll
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\bin\Debug\MaterialDesignColors.pdb
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LABO JUMBO.csproj.AssemblyReference.cache
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\App.baml
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\MainPage.g.cs
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\MainWindow.g.cs
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\App.g.cs
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LABO JUMBO_MarkupCompile.cache
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LABO JUMBO_MarkupCompile.lref
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\MainWindow.baml
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\MainPage.baml
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LABO JUMBO.g.resources
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LABO_JUMBO.Properties.Resources.resources
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LABO JUMBO.csproj.GenerateResource.cache
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LABO JUMBO.csproj.CoreCompileInputs.cache
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LABO JUMBO.csproj.Up2Date
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LABO JUMBO.exe
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LABO JUMBO.pdb

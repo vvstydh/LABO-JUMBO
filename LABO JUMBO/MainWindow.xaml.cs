@@ -24,5 +24,12 @@ namespace LABO_JUMBO
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainPage main = new MainPage();
+            main.Show();
+            this.Close();
+        }
     }
 }
