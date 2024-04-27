@@ -8,7 +8,7 @@
         mc:Ignorable="d"    
         Style="{StaticResource MaterialDesignWindow}"
         Title="Вход" MaxHeight="700" WindowStartupLocation="CenterScreen" MaxWidth="900" MinHeight="700" MinWidth="900" Background="Black" FontFamily="Eurostile Bold" FontSize="14" >
-    <Grid Background="#FF1D5BA2">
+    <Grid Background="White">
         <Border Background="White" MinWidth="400" MaxWidth="500" Margin="15" VerticalAlignment="Center" Padding="30" CornerRadius="30">
             <Border.Effect>
                 <DropShadowEffect Color="#FF1D5BA2" BlurRadius="60" ShadowDepth="0" />
