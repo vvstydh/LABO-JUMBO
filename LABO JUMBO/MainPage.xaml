@@ -11,6 +11,6 @@
         <Grid.Background>
             <ImageBrush ImageSource="/back.png"/>
         </Grid.Background>
-        <TextBlock Text="Описание приложения" FontSize="50" Height="60" Width="700" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="250"></TextBlock>
+        <TextBlock Text="Описание программы" FontSize="50" Height="60" Width="700" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="250"></TextBlock>
     </Grid>
 </Window>
