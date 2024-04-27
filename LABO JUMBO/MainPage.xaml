@@ -21,7 +21,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/back.png"/>
         </Grid.Background>
-        <TextBlock Text="Описание программы" FontSize="50" Height="60" Width="700" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="1"></TextBlock>
-        <Button Content="Button"  VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1"  Width="200" Grid.Column="1" Height="60" Style="{StaticResource MaterialDesignFlatButton}"/>
+        <TextBlock Text="Описание приложения" FontSize="50" Height="60" Width="700" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="1"></TextBlock>
+        <Button Content="лаба 2" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1"  Width="200" Grid.Column="1" Height="60" Style="{StaticResource MaterialDesignFlatButton}"/>
     </Grid>
 </Window>
