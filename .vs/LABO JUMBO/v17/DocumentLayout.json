@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|solutionrelative:labo jumbo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|c:\\users\\budko\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0443\u043D\u0438\u0432\u0435\u0440\\opd\\labo jumbo\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|C:\\Users\\budko\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u043D\u0438\u0432\u0435\u0440\\OPD\\labo jumbo\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|solutionrelative:labo jumbo\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|c:\\users\\budko\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0443\u043D\u0438\u0432\u0435\u0440\\opd\\labo jumbo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|C:\\Users\\budko\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u043D\u0438\u0432\u0435\u0440\\OPD\\labo jumbo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|solutionrelative:labo jumbo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -34,8 +38,7 @@
               "RelativeToolTip": "LABO JUMBO\\MainWindow.xaml.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAtwB8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T01:56:47.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-27T01:56:47.21Z"
             },
             {
               "$type": "Document",
@@ -46,8 +49,7 @@
               "ToolTip": "C:\\Users\\budko\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u043D\u0438\u0432\u0435\u0440\\OPD\\LABO JUMBO\\MainWindow.xaml",
               "RelativeToolTip": "LABO JUMBO\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-27T01:54:25.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-27T01:54:25.152Z"
             },
             {
               "$type": "Document",
