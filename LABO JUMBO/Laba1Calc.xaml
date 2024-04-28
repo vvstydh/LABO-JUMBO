@@ -5,8 +5,102 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LABO_JUMBO"
         mc:Ignorable="d"
-        Title="Laba1Calc" Height="450" Width="800">
+                Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Left" Height="44" Margin="15,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="303" RenderTransformOrigin="0.5,0.5" FontSize="18" FontFamily="Times New Roman">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.508"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="Введите "/><Run Language="ru-ru" Text="угол"/><Run Text=" (θ, "/><Run Language="ru-ru" Text="рад"/><Run Text="):"/></TextBlock>
+        <TextBox x:Name="Ugol" HorizontalAlignment="Left" Height="25" Margin="317,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" FontSize="18" FontFamily="Times New Roman"/>
+        <Label Content="Калькулятор для кинематики равноускоренного движения:" HorizontalAlignment="Left" Height="48" Margin="97,10,0,0" VerticalAlignment="Top" Width="610" FontFamily="Times New Roman" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Height="44" Margin="15,93,0,0" TextWrapping="Wrap" Text="Введите длину спицы (r, м):" VerticalAlignment="Top" Width="301" RenderTransformOrigin="0.5,0.5" FontSize="18" FontFamily="Times New Roman">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.508"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBox x:Name="Dlina" HorizontalAlignment="Left" Height="25" Margin="317,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" FontSize="18" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Height="44" Margin="15,123,0,0" TextWrapping="Wrap" Text="Введите угловой коэффициент (a):" VerticalAlignment="Top" Width="303" RenderTransformOrigin="0.5,0.5" FontSize="18" FontFamily="Times New Roman">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.508"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBox x:Name="Uglkef" HorizontalAlignment="Left" Height="25" Margin="317,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" FontSize="18" FontFamily="Times New Roman"/>
+        <TextBlock HorizontalAlignment="Left" Height="44" Margin="15,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="304" RenderTransformOrigin="0.5,0.5" FontSize="18" FontFamily="Times New Roman">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.508"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="Угловое ускорение (ε"/><Run Language="ru-ru" Text=", рад"/><Run Text="/"/><Run Language="ru-ru" Text="с"/><Run Text="²):"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="44" Margin="15,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" RenderTransformOrigin="0.5,0.5" FontSize="18" FontFamily="Times New Roman">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.508"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="Углов"/><Run Text="ая скорость"/><Run Text=" (ω"/><Run Text=", рад"/><Run Text="/"/><Run Text="с):"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="44" Margin="15,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" RenderTransformOrigin="0.5,0.5" FontSize="18" FontFamily="Times New Roman">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.508"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Language="ru-ru" Text="Время"/><Run Text=" (t, с):"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="44" Margin="16,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" RenderTransformOrigin="0.5,0.5" FontSize="18" FontFamily="Times New Roman">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.508"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="Тангенциальное ускорение"/><Run Text=" (a"/><Run FontFamily="Cambria Math" Text="𝜏"/><Run Text=", "/><Run Text="м"/><Run Text="/"/><Run Text="с²):"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="44" Margin="16,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" RenderTransformOrigin="0.5,0.5" FontSize="18" FontFamily="Times New Roman">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.508"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="Норм"/><Run Text="альное ускорение"/><Run Text=" ("/><Span/><Run Text="a"/><Run Language="ru-ru" Text="н"/><Run Text=", "/><Run Text="м"/><Run Text="/"/><Run Text="с²):"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="44" Margin="15,313,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" RenderTransformOrigin="0.5,0.5" FontSize="18" FontFamily="Times New Roman">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.508"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Language="ru-ru" Text="Обще"/><Run Text="е ускорение"/><Run Text=" (ao, "/><Run Text="м"/><Run Text="/"/><Run Text="с²):"/></TextBlock>
+        <TextBlock x:Name="Uglusk" HorizontalAlignment="Left" Height="30" Margin="317,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" FontSize="18" FontFamily="Times New Roman"/>
+        <TextBlock x:Name="Vrem" HorizontalAlignment="Left" Height="30" Margin="317,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" FontFamily="Times New Roman" FontSize="18"/>
+        <TextBlock x:Name="Uglscor" HorizontalAlignment="Left" Height="30" Margin="317,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" FontFamily="Times New Roman" FontSize="18"/>
+        <TextBlock x:Name="Uskrt" HorizontalAlignment="Left" Height="30" Margin="317,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" FontFamily="Times New Roman" FontSize="18"/>
+        <TextBlock x:Name="Uskrn" HorizontalAlignment="Left" Height="30" Margin="317,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" FontSize="18" FontFamily="Times New Roman"/>
+        <TextBlock x:Name="Uskro" HorizontalAlignment="Left" Height="30" Margin="317,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" FontFamily="Times New Roman" FontSize="18"/>
+        <Button Content="Рассчитать" HorizontalAlignment="Left" Height="46" Margin="293,360,0,0" VerticalAlignment="Top" Width="256" Click="Button_Click" FontFamily="Times New Roman" FontSize="18"/>
+
     </Grid>
 </Window>
