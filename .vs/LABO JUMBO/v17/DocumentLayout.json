@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\budko\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u043D\u0438\u0432\u0435\u0440\\OPD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|c:\\users\\budko\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0443\u043D\u0438\u0432\u0435\u0440\\opd\\labo jumbo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|solutionrelative:labo jumbo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|C:\\Users\\budko\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u043D\u0438\u0432\u0435\u0440\\OPD\\labo jumbo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|solutionrelative:labo jumbo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|c:\\users\\budko\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0443\u043D\u0438\u0432\u0435\u0440\\opd\\labo jumbo\\laba1calc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|C:\\Users\\budko\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u043D\u0438\u0432\u0435\u0440\\OPD\\labo jumbo\\laba1calc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|solutionrelative:labo jumbo\\laba1calc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|c:\\users\\budko\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0443\u043D\u0438\u0432\u0435\u0440\\opd\\labo jumbo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|solutionrelative:labo jumbo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|c:\\users\\budko\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0443\u043D\u0438\u0432\u0435\u0440\\opd\\labo jumbo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4511BDF8-E45A-4123-9168-34E5749AB6A7}|LABO JUMBO\\LABO JUMBO.csproj|solutionrelative:labo jumbo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,16 +22,16 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\budko\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u043D\u0438\u0432\u0435\u0440\\OPD\\LABO JUMBO\\MainPage.xaml",
               "RelativeDocumentMoniker": "LABO JUMBO\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\budko\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u043D\u0438\u0432\u0435\u0440\\OPD\\LABO JUMBO\\MainPage.xaml*",
-              "RelativeToolTip": "LABO JUMBO\\MainPage.xaml*",
+              "ToolTip": "C:\\Users\\budko\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u043D\u0438\u0432\u0435\u0440\\OPD\\LABO JUMBO\\MainPage.xaml",
+              "RelativeToolTip": "LABO JUMBO\\MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-29T14:25:31.222Z",
               "EditorCaption": ""
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\budko\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0423\u043D\u0438\u0432\u0435\u0440\\OPD\\LABO JUMBO\\MainWindow.xaml",
               "RelativeDocumentMoniker": "LABO JUMBO\\MainWindow.xaml",

@@ -36,6 +36,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon1.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="MaterialDesignColors, Version=3.0.0.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.3.0.0\lib\net462\MaterialDesignColors.dll</HintPath>
@@ -121,22 +124,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="back.png" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pngtree-abstract-background-technology-of-data-applications-image_555017.jpg" />
+    <Resource Include="fon4.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="fon1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="fon2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="fon3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="fon4.jpg" />
+    <Resource Include="icon1.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.5.0.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.5.0.0\build\MaterialDesignThemes.targets')" />
