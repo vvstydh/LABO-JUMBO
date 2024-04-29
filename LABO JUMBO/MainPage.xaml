@@ -23,6 +23,9 @@
             <ImageBrush ImageSource="/fon4.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
         <Border Background="White" Grid.RowSpan="3" Grid.ColumnSpan="2" Padding="30" CornerRadius="30" Margin="200 100 50 100" >
+            <Border.Effect>
+                <DropShadowEffect Color="#FF3775BB" BlurRadius="60" ShadowDepth="0" />
+            </Border.Effect>
             <StackPanel>
             <TextBlock Text = "LABO JUMBO" TextAlignment="Center" FontSize="48"/>
             <TextBlock TextWrapping="Wrap" Text="   Создать и развернуть мобильное приложение с лабораторными работами по физике, предназначенное для студентов и преподавателей, с целью упрощения процесса освоения учебного материала и облегчения проверки работ. Приложение будет предоставлять широкий спектр лабораторных заданий, а также будет обеспечивать возможности для анализа результатов и создания отчетов, что значительно улучшит эффективность образовательного процесса и облегчит работу преподавателей." FontSize="20" TextAlignment="Justify"/>

@@ -12,6 +12,9 @@
             <ImageBrush ImageSource="/fon4.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
         <Border Background="White" Padding="30" CornerRadius="30" Margin="80,0,80,0" VerticalAlignment="Center" Height="560" Width="700">
+            <Border.Effect>
+                <DropShadowEffect Color="#FF3775BB" BlurRadius="60" ShadowDepth="0" />
+            </Border.Effect>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="350"/>
