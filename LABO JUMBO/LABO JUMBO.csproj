@@ -124,22 +124,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="back.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="pngtree-abstract-background-technology-of-data-applications-image_555017.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="fon1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="fon2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="fon3.png" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="fon4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fon1.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icon1.ico" />
