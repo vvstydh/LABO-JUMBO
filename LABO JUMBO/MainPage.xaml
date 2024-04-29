@@ -23,10 +23,45 @@
             <ImageBrush ImageSource="/fon4.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
         <Border Background="White" Grid.RowSpan="3" Grid.ColumnSpan="2" Padding="30" CornerRadius="30" Margin="200 100 50 100" >
-            <TextBlock TextWrapping="Wrap" Text="   Создать и развернуть мобильное приложение с лабораторными работами по физике, предназначенное для студентов и преподавателей, с целью упрощения процесса освоения учебного материала и облегчения проверки работ. Приложение будет предоставлять широкий спектр лабораторных заданий, а также будет обеспечивать возможности для анализа результатов и создания отчетов, что значительно улучшит эффективность образовательного процесса и облегчит работу преподавателей." FontSize="16" TextAlignment="Justify"/>
+            <StackPanel>
+            <TextBlock Text = "LABO JUMBO" TextAlignment="Center" FontSize="48"/>
+            <TextBlock TextWrapping="Wrap" Text="   Создать и развернуть мобильное приложение с лабораторными работами по физике, предназначенное для студентов и преподавателей, с целью упрощения процесса освоения учебного материала и облегчения проверки работ. Приложение будет предоставлять широкий спектр лабораторных заданий, а также будет обеспечивать возможности для анализа результатов и создания отчетов, что значительно улучшит эффективность образовательного процесса и облегчит работу преподавателей." FontSize="20" TextAlignment="Justify"/>
+            </StackPanel>
         </Border>
 
-        <Button Content="Кинематика равноускоренного вращения" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1"  Width="659" Height="60" Grid.Column="2" Grid.ColumnSpan="4" Style="{StaticResource MaterialDesignFlatDarkBgButton}" >
+        <Button Content="Кинематика равноускоренного вращения" materialDesign:ButtonAssist.CornerRadius="30" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center" Width="659" Height="60" Grid.Column="2" Grid.ColumnSpan="4" Grid.Row="0" Style="{StaticResource MaterialDesignFlatDarkBgButton}"  Margin="0 100 0 0" Click="Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <LinearGradientBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                            <RotateTransform Angle="-30" CenterX="0.5" CenterY="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </LinearGradientBrush.RelativeTransform>
+                    <GradientStop Color="#FF3D9CC7" Offset="1"/>
+                    <GradientStop Color="#FF6F5FFE" Offset="0"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Изучение распределения Больцмана" materialDesign:ButtonAssist.CornerRadius="30" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1"  Width="659" Height="60" Grid.Column="2" Grid.ColumnSpan="4" Style="{StaticResource MaterialDesignFlatDarkBgButton}" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <LinearGradientBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                            <RotateTransform Angle="-30" CenterX="0.5" CenterY="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </LinearGradientBrush.RelativeTransform>
+                    <GradientStop Color="#FF3D9CC7" Offset="1"/>
+                    <GradientStop Color="#FF6F5FFE" Offset="0"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Изучение магнитного поля кругового" materialDesign:ButtonAssist.CornerRadius="30" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2"  Width="659" Height="60" Grid.Column="2" Grid.ColumnSpan="4" Style="{StaticResource MaterialDesignFlatDarkBgButton}" Margin="0 0 0 100" >
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <LinearGradientBrush.RelativeTransform>
