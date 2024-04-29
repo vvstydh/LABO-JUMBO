@@ -23,5 +23,13 @@ namespace LABO_JUMBO
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            int ugol = int.Parse(Ugol.Text);
+            int dlina = int.Parse(Dlina.Text);
+            int uglkef = int.Parse(Uglkef.Text);
+            Uglusk.Text = (2 * uglkef).ToString();
+        }
     }
 }

@@ -27,9 +27,12 @@ namespace LABO_JUMBO
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainPage main = new MainPage();
-            main.Show();
-            this.Close();
+            if (registr.IsChecked == true)
+            {
+                MainPage main = new MainPage();
+                main.Show();
+                this.Close();
+            }
         }
     }
 }

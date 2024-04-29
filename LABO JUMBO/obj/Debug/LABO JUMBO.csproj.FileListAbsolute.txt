@@ -50,3 +50,5 @@ C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LAB
 C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LABO JUMBO.csproj.Up2Date
 C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LABO JUMBO.exe
 C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LABO JUMBO.pdb
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\Laba1Calc.g.cs
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\Laba1Calc.baml
