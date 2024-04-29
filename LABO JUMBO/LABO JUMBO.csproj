@@ -123,6 +123,21 @@
   <ItemGroup>
     <Resource Include="back.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pngtree-abstract-background-technology-of-data-applications-image_555017.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fon2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fon4.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.5.0.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.5.0.0\build\MaterialDesignThemes.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
