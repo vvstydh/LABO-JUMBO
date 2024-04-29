@@ -100,7 +100,7 @@
         <TextBlock x:Name="Uskrt" HorizontalAlignment="Left" Height="30" Margin="317,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" FontFamily="Times New Roman" FontSize="18"/>
         <TextBlock x:Name="Uskrn" HorizontalAlignment="Left" Height="30" Margin="317,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" FontSize="18" FontFamily="Times New Roman"/>
         <TextBlock x:Name="Uskro" HorizontalAlignment="Left" Height="30" Margin="317,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" FontFamily="Times New Roman" FontSize="18"/>
-        <Button Content="Рассчитать" HorizontalAlignment="Left" Height="46" Margin="293,360,0,0" VerticalAlignment="Top" Width="256" FontFamily="Times New Roman" FontSize="18" Click="Button_Click_1"/>
+        <Button Content="Рассчитать" HorizontalAlignment="Left" Height="46" Margin="293,360,0,0" VerticalAlignment="Top" Width="256" FontFamily="Times New Roman" FontSize="18" Click="Button_Click"/>
 
     </Grid>
 </Window>
