@@ -52,3 +52,32 @@ C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LAB
 C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\LABO JUMBO.pdb
 C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\Laba1Calc.g.cs
 C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\Laba1Calc.baml
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\bin\Debug\LABO JUMBO.exe.config
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\bin\Debug\LABO JUMBO.exe
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\bin\Debug\LABO JUMBO.pdb
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\bin\Debug\MaterialDesignColors.dll
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO.csproj.AssemblyReference.cache
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\App.baml
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\Laba1Calc.g.cs
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\MainPage.g.cs
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\MainWindow.g.cs
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\App.g.cs
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO_MarkupCompile.cache
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO_MarkupCompile.lref
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\Laba1Calc.baml
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\MainPage.baml
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\MainWindow.baml
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO.g.resources
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\LABO_JUMBO.Properties.Resources.resources
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO.csproj.GenerateResource.cache
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO.csproj.CoreCompileInputs.cache
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO.csproj.CopyComplete
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO.exe
+C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO.pdb
