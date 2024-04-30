@@ -34,7 +34,7 @@
                     <RowDefinition Height="70"/>
                 </Grid.RowDefinitions>
                 <TextBlock Text="Калькулятор для кинематики равноускоренного движения" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" FontSize="21" TextAlignment="Center"/>
-                <TextBlock Text="Введите угол (θ, рад):" Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" FontSize="18"/>
+                <TextBlock Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" FontSize="18"><Run Text="Введите угол (θ, рад/"/><Run Text="π):"/></TextBlock>
                 <TextBlock Text="Введите длину спицы (r, м):" Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" FontSize="18"/>
                 <TextBlock Text="Введите угловой коэффициент (a):" Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" FontSize="18"/>
                 <TextBlock Text="Угловое ускорение (ε, рад/с²):" Grid.Column="0" Grid.Row="4" VerticalAlignment="Center" FontSize="18"/>
@@ -53,7 +53,7 @@
                 <TextBlock x:Name="Uskrn"  Grid.Column="1" Grid.Row="8" VerticalAlignment="Center" FontSize="18"/>
                 <TextBlock x:Name="Uskro"  Grid.Column="1" Grid.Row="9" VerticalAlignment="Center" FontSize="18"/>
                 <Button Content="Рассчитать" Click="Button_Click" materialDesign:ButtonAssist.CornerRadius="30" FontSize="18" HorizontalAlignment="Center" Width="150" Height="50" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="10" Style="{StaticResource MaterialDesignFlatDarkBgButton}" BorderBrush="{x:Null}">
-                <Button.Background>
+                    <Button.Background>
                         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                             <LinearGradientBrush.RelativeTransform>
                                 <TransformGroup>
@@ -68,6 +68,7 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
+                <TextBlock x:Name="Error" HorizontalAlignment="Left" Height="50" Margin="10,0,0,0" Grid.Row="10" TextWrapping="Wrap" VerticalAlignment="Center" Width="209" FontSize="14" Foreground="Red"/>
             </Grid>
         </Border>
     </Grid>
