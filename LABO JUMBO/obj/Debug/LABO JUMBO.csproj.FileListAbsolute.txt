@@ -81,3 +81,9 @@ C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO.cs
 C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO.csproj.CopyComplete
 C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO.exe
 C:\Users\Кирилл\source\repos\LABO-JUMBO\LABO JUMBO\obj\Debug\LABO JUMBO.pdb
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\Boltsman.g.cs
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\Kinematica.g.cs
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\MagnetArea.g.cs
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\Boltsman.baml
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\Kinematica.baml
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\MagnetArea.baml

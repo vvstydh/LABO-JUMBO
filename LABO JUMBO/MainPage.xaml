@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LABO_JUMBO"
         mc:Ignorable="d"
-        Title="MainPage"  WindowStartupLocation="CenterScreen" WindowState="Maximized"  MinHeight="700" MinWidth="900"  FontFamily="Eurostile Bold" FontSize="14" Height="1020" Width="1920" >
+        Title="LABO JUMBO"  WindowStartupLocation="CenterScreen" WindowState="Maximized"  MinHeight="700" MinWidth="900"  FontFamily="Eurostile Bold" FontSize="14" Height="1020" Width="1920" >
     <Grid >
         <Grid.RowDefinitions>
             <RowDefinition Height="340*"/>
@@ -20,15 +20,21 @@
             <ColumnDefinition Width="480*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
-            <ImageBrush ImageSource="/fon4.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="/fon3.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
-        <Border Background="White" Grid.RowSpan="3" Grid.ColumnSpan="2" Padding="30" CornerRadius="30" Margin="200 100 50 100" >
+        <Border Grid.RowSpan="3" Grid.ColumnSpan="2" Padding="30" CornerRadius="30" Margin="200 100 50 100" >
+            <Border.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.InactiveBorderColorKey}}"/>
+            </Border.Background>
             <Border.Effect>
                 <DropShadowEffect Color="#FF3775BB" BlurRadius="60" ShadowDepth="0" />
             </Border.Effect>
             <StackPanel>
             <TextBlock Text = "LABO JUMBO" TextAlignment="Center" FontSize="48"/>
-            <TextBlock TextWrapping="Wrap" Text="   Создать и развернуть мобильное приложение с лабораторными работами по физике, предназначенное для студентов и преподавателей, с целью упрощения процесса освоения учебного материала и облегчения проверки работ. Приложение будет предоставлять широкий спектр лабораторных заданий, а также будет обеспечивать возможности для анализа результатов и создания отчетов, что значительно улучшит эффективность образовательного процесса и облегчит работу преподавателей." FontSize="20" TextAlignment="Justify"/>
+                <TextBlock TextWrapping="Wrap" FontSize="25" TextAlignment="Justify">
+                    <Run></Run>
+                    В этом приложении собраны основные лабораторные работы по курсу физики университета, пользователю даны: <LineBreak/> 1) Материал <LineBreak/>2) Таблицы для заполнения данных<LineBreak/>3) Поле для написания заключения работы<LineBreak/>4) Калькулятор для расчета величин.<LineBreak/><Run></Run> Все результаты работы будут формироваться в тествовый файл для дальнейшей проверки.
+                </TextBlock> 
             </StackPanel>
         </Border>
 

@@ -6,12 +6,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LABO_JUMBO"
         mc:Ignorable="d"
-        Title="MainWindow" MinHeight="700" MinWidth="900" MaxHeight="700" MaxWidth="900" FontFamily="Eurostile Bold">
+        Title="LABO JUMBO" MinHeight="700" MinWidth="900" MaxHeight="700" MaxWidth="900" FontFamily="Eurostile Bold">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/fon4.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="/fon3.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
-        <Border Background="White" Padding="30" CornerRadius="30" Margin="80,0,80,0" VerticalAlignment="Center" Height="560" Width="700">
+        <Border Padding="30" CornerRadius="30" Margin="80,0,80,0" VerticalAlignment="Center" Height="560" Width="700">
+            <Border.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.InactiveBorderColorKey}}"/>
+            </Border.Background>
             <Border.Effect>
                 <DropShadowEffect Color="#FF3775BB" BlurRadius="60" ShadowDepth="0" />
             </Border.Effect>

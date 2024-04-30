@@ -69,7 +69,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Boltsman.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kinematica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Laba1Calc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MagnetArea.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -85,8 +97,17 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Boltsman.xaml.cs">
+      <DependentUpon>Boltsman.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kinematica.xaml.cs">
+      <DependentUpon>Kinematica.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Laba1Calc.xaml.cs">
       <DependentUpon>Laba1Calc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MagnetArea.xaml.cs">
+      <DependentUpon>MagnetArea.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -123,9 +144,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="fon4.jpg" />
   </ItemGroup>
@@ -134,6 +153,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fon2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fon3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.5.0.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.5.0.0\build\MaterialDesignThemes.targets')" />
