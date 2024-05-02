@@ -6,12 +6,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LABO_JUMBO"
         mc:Ignorable="d"
-        Title="MainWindow" MinHeight="700" MinWidth="900" MaxHeight="700" MaxWidth="900" FontFamily="Eurostile Bold">
+        Title="LABO JUMBO" MinHeight="700" MinWidth="900" MaxHeight="700" MaxWidth="900" FontFamily="Eurostile Bold">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/fon4.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="/fon3.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
-        <Border Background="White" Padding="30" CornerRadius="30" Margin="80,0,80,0" VerticalAlignment="Center" Height="560" Width="700">
+        <Border Padding="30" CornerRadius="30" Margin="80,0,80,0" VerticalAlignment="Center" Height="560" Width="700">
+            <Border.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.InactiveBorderColorKey}}"/>
+            </Border.Background>
             <Border.Effect>
                 <DropShadowEffect Color="#FF3775BB" BlurRadius="60" ShadowDepth="0" />
             </Border.Effect>
@@ -31,7 +34,7 @@
                     <RowDefinition Height="44"/>
                     <RowDefinition Height="44"/>
                     <RowDefinition Height="44"/>
-                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="60"/>
                 </Grid.RowDefinitions>
                 <TextBlock Text="Калькулятор для кинематики равноускоренного движения" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" FontSize="21" TextAlignment="Center"/>
                 <TextBlock Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" FontSize="18"><Run Text="Введите угол (θ, рад/"/><Run Text="π):"/></TextBlock>
@@ -52,7 +55,7 @@
                 <TextBlock x:Name="Uskrt"  Grid.Column="1" Grid.Row="7" VerticalAlignment="Center" FontSize="18"/>
                 <TextBlock x:Name="Uskrn"  Grid.Column="1" Grid.Row="8" VerticalAlignment="Center" FontSize="18"/>
                 <TextBlock x:Name="Uskro"  Grid.Column="1" Grid.Row="9" VerticalAlignment="Center" FontSize="18"/>
-                <Button Content="Рассчитать" Click="Button_Click" materialDesign:ButtonAssist.CornerRadius="30" FontSize="18" HorizontalAlignment="Center" Width="150" Height="50" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="10" Style="{StaticResource MaterialDesignFlatDarkBgButton}" BorderBrush="{x:Null}">
+                <Button Content="Рассчитать" Click="Button_Click" materialDesign:ButtonAssist.CornerRadius="30" FontSize="18" HorizontalAlignment="Center" Width="150" Height="50" Grid.Column="0" Grid.Row="10" Style="{StaticResource MaterialDesignFlatDarkBgButton}" BorderBrush="{x:Null}">
                     <Button.Background>
                         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                             <LinearGradientBrush.RelativeTransform>
@@ -68,7 +71,7 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
-                <TextBlock x:Name="Error" HorizontalAlignment="Left" Height="50" Margin="10,0,0,0" Grid.Row="10" TextWrapping="Wrap" VerticalAlignment="Center" Width="209" FontSize="14" Foreground="Red"/>
+                <TextBlock x:Name="Error"  Grid.Row="10" Grid.Column="1" TextWrapping ="Wrap"  FontSize="18" Foreground="Red" TextAlignment="Center"/>
             </Grid>
         </Border>
     </Grid>
