@@ -7,12 +7,15 @@
         xmlns:local="clr-namespace:LABO_JUMBO"
         mc:Ignorable="d"    
         Style="{StaticResource MaterialDesignWindow}"
-        Title="Вход" MaxHeight="700" WindowStartupLocation="CenterScreen" MaxWidth="900" MinHeight="700" MinWidth="900" FontFamily="Eurostile Bold" FontSize="14"  >
+        Title="LABO JUMBO" MaxHeight="700" WindowStartupLocation="CenterScreen" MaxWidth="900" MinHeight="700" MinWidth="900" FontFamily="Eurostile Bold" FontSize="14"  >
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/fon1.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="/fon3.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
-        <Border Background="White" MinWidth="400" MaxWidth="500" Margin="15" VerticalAlignment="Center" Padding="30" CornerRadius="30">
+        <Border MinWidth="400" MaxWidth="500" Margin="15" VerticalAlignment="Center" Padding="30" CornerRadius="30">
+            <Border.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.InactiveBorderColorKey}}"/>
+            </Border.Background>
             <Border.Effect>
                 <DropShadowEffect Color="#FF3775BB" BlurRadius="60" ShadowDepth="0" />
             </Border.Effect>
