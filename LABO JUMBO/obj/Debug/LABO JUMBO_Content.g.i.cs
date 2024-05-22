@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("laba2img.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("open.png")]
 
 
