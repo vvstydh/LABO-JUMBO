@@ -124,3 +124,5 @@ C:\Users\budko\source\repos\LABO JUMBO\obj\Debug\LABO_JUMBO.Properties.Resources
 C:\Users\budko\source\repos\LABO JUMBO\obj\Debug\LABO JUMBO.csproj.GenerateResource.cache
 C:\Users\budko\source\repos\LABO JUMBO\obj\Debug\LABO JUMBO.csproj.CoreCompileInputs.cache
 C:\Users\budko\source\repos\LABO JUMBO\obj\Debug\LABO JUMBO.csproj.Up2Date
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\Registration.g.cs
+C:\Users\budko\Рабочий стол\Универ\OPD\LABO JUMBO\obj\Debug\Registration.baml
