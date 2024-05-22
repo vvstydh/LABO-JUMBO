@@ -1,0 +1,35 @@
+﻿<Window x:Class="LABO_JUMBO.Registration"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LABO_JUMBO"
+        mc:Ignorable="d"
+        Title="LABO JUMBO" MaxHeight="700" MaxWidth="900" MinHeight="700" MinWidth="900" FontFamily="Eurostile Bold" FontSize="14" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/fon3.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Border MinWidth="400" MaxWidth="500" Margin="15" VerticalAlignment="Center" Padding="30" CornerRadius="30">
+            <Border.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.InactiveBorderColorKey}}"/>
+            </Border.Background>
+            <StackPanel>
+                <TextBlock Text="Регистрация" FontSize="30" FontWeight="Bold" Margin="0 0 0 20" />
+                <TextBox x:Name="loginTextBox" CaretBrush="#FF1D5BA2" SelectionBrush="#FF1D5BA2" materialDesign:HintAssist.Hint ="Введи логин" BorderBrush="#FF1D5BA2" OpacityMask="#FF1D5BA2"/>
+                <TextBox x:Name="nameTextBox" CaretBrush="#FF1D5BA2" SelectionBrush="#FF1D5BA2" materialDesign:HintAssist.Hint ="Введи имя" BorderBrush="#FF1D5BA2" OpacityMask="#FF1D5BA2" Margin="0 10 0 0"/>
+                <TextBox x:Name="surnameTextBox" CaretBrush="#FF1D5BA2" SelectionBrush="#FF1D5BA2" materialDesign:HintAssist.Hint ="Введи фамилию" BorderBrush="#FF1D5BA2" OpacityMask="#FF1D5BA2" Margin="0 10 0 0"/>
+                <PasswordBox x:Name="passwordTextBox" CaretBrush="#FF1D5BA2" SelectionBrush="#FF1D5BA2" materialDesign:HintAssist.Hint ="Введи пароль" BorderBrush="#FF1D5BA2" OpacityMask="#FF1D5BA2" Margin="0 10 0 0"/>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="registrationButton" Content="Зарегистрироваться"  Foreground="#FF1D5BA2" Width="190" HorizontalAlignment="Left" Margin="0 10 0 0"  Style="{StaticResource MaterialDesignFlatButton}" FontWeight="Bold"  RenderTransformOrigin="0.5,0.5" Click="registrationButton_Click"/>
+                    <Button x:Name="home" Content="Обратно"  Foreground="#FF1D5BA2" Width="90" HorizontalAlignment="Left" Margin="0 10 0 0"  Style="{StaticResource MaterialDesignFlatButton}" FontWeight="Bold"  RenderTransformOrigin="0.5,0.5" Click="home_Click"/>
+
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+
+
+    </Grid>
+</Window>
