@@ -30,9 +30,9 @@
                 <DropShadowEffect Color="#FF3775BB" BlurRadius="60" ShadowDepth="0" />
             </Border.Effect>
             <StackPanel>
-                <TextBlock x:Name="userTextBlock" Text = "Пользователь: " TextAlignment="Center" FontSize="26"/>
-            <TextBlock Text = "LABO JUMBO" TextAlignment="Center" FontSize="48"/>
+                <TextBlock Text = "LABO JUMBO" TextAlignment="Center" FontSize="48"/>
                 <TextBlock TextWrapping="Wrap" FontSize="25" TextAlignment="Justify"><Run/><Run Text=" В этом приложении собраны основные лабораторные работы по курсу физики университета, пользователю даны:"/><LineBreak/><Run Text="1) Материал"/><LineBreak/><Run Text="2) Таблицы для заполнения данных"/><LineBreak/><Run Text="3) Поле для написания заключения работы"/><LineBreak/><Run Text="4) Калькулятор для расчета величин."/><LineBreak/><Run/><Run Text=" Все результаты работы будут формироваться в тествовый файл для дальнейшей проверки."/></TextBlock>
+                <TextBlock x:Name="userTextBlock" Text = "Пользователь: " TextAlignment="Center" FontSize="26"/>
             </StackPanel>
         </Border>
 

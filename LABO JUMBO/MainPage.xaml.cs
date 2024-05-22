@@ -36,8 +36,9 @@ namespace LABO_JUMBO
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Laba1Calc calc = new Laba1Calc();
-            calc.Show();
+            Kinematica kinematica = new Kinematica();
+            kinematica.Show();
+            this.Close();
         }
     }
 }

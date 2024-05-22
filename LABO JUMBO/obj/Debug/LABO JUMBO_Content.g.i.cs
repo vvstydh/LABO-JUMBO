@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("fon3.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("laba2img.png")]
 
 
