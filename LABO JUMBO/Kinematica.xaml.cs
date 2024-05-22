@@ -23,5 +23,11 @@ namespace LABO_JUMBO
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Laba1Calc laba1Calc = new Laba1Calc();
+            laba1Calc.Show();
+        }
     }
 }

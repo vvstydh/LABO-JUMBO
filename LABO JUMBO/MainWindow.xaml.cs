@@ -29,10 +29,43 @@ namespace LABO_JUMBO
         {
             if (registr.IsChecked == true)
             {
-                MainPage main = new MainPage();
+                MainPage main = new MainPage("");
                 main.Show();
                 this.Close();
             }
+            else
+            {
+                List<User> users = new List<User>();
+                users = User.LoadAllUsers();
+
+                if (login.Text != "" && password.Password != "")
+                {
+                    if (users.Where(x => x.login == login.Text).FirstOrDefault() != null)
+                    {
+                        User user = users.Where(x => x.login == login.Text).FirstOrDefault();
+                        if (user.IsPasswordCorrect(password.Password))
+                        {
+                            MainPage main = new MainPage(user.login);
+                            main.Show();
+                            this.Close();
+                        }
+                        else { MessageBox.Show("Пароль не верный", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error); }
+                    }
+                    else { MessageBox.Show("Такого логина не существует", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error); }
+                }
+                else { MessageBox.Show("Заполните все поля", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error); }
+            }
+        }
+        private void Register(object sender, RoutedEventArgs e)
+        {
+            Registration reg = new Registration();
+            reg.Show();
+            this.Close();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            password.Visibility = Visibility.Hidden;
         }
     }
 }

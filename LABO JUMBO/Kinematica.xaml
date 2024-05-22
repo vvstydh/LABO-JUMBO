@@ -1,12 +1,49 @@
 ﻿<Window x:Class="LABO_JUMBO.Kinematica"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LABO_JUMBO"
         mc:Ignorable="d"
-        Title="Kinematica" Height="450" Width="800">
+        Title="LABO JUMBO"  WindowStartupLocation="CenterScreen" WindowState="Maximized"  MinHeight="700" MinWidth="900"  FontFamily="Eurostile Bold" FontSize="14" Height="1713" Width="1920">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="/fon3.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <ScrollViewer>
+            <Border Padding="30" CornerRadius="60" Margin="100 100 100 100">
+                <Border.Background>
+                    <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.InactiveBorderColorKey}}"/>
+                </Border.Background>
+                <StackPanel>
+                    <TextBlock Text = "КИНЕМАТИКА РАВНОУСКОРЕННОГО ВРАЩЕНИЯ" TextAlignment="Center" FontSize="48"/>
+                    <TextBlock Text = "   1) Цель работы:" TextAlignment="Justify" FontSize="24" FontFamily="Eurostile" Margin="0 20 0 0"/>
+                    <TextBlock TextAlignment="Justify" FontSize="24" FontFamily="Eurostile" TextWrapping="Wrap" Text = "    В работе необходимо подтвердить неизменность углового ускорения вращающегося тела при действии постоянного момента сил и определить кинематические характеристики (угловые и линейные) вращающегося тела в целом и его отдельных частей."/>
+                    <TextBlock Text = "   2) Описание установки:" TextAlignment="Justify" FontSize="24" FontFamily="Eurostile" Margin="0 20 0 0"/>
+                    <TextBlock TextAlignment="Justify" FontSize="24" FontFamily="Eurostile" TextWrapping="Wrap" Text = "    Экспериментальная установка представляет собой крестообразный маятник (маятник Обербека), смонтированный на основании, содержащем электронный счетчик времени (таймер) заданного числа оборотов. Передняя панель установки содержит рукоятку выбора числа оборотов, кнопку «Сброс» и шкалу таймера."/>
+                    <Image Height="500" Width="600" Source="/laba1img.png" Margin="0 20 0 0"/>
+                    <TextBlock TextAlignment="Center" FontSize="24" FontFamily="Eurostile" TextWrapping="Wrap" Text = "1 – Основание, 2 – Винт регулировки, 3 – Привеска, 4 – Спица, 5 – Барабан, 6 – Нить, 7 – Блок, 8 – Стойка, 9 – Грузик."/>
+                    <Image Height="350" Width="600" Source="/laba2img.png" Margin="0 20 0 0"/>
+                    <TextBlock TextAlignment="Center" FontSize="24" FontFamily="Eurostile" TextWrapping="Wrap" Text = "Передняя панель установки"/>
+                    <Button Content="Калькулятор" materialDesign:ButtonAssist.CornerRadius="30" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="2"  Width="500" Height="60" Style="{StaticResource MaterialDesignFlatDarkBgButton}" Margin="50 20 0 0" BorderBrush="{x:Null}" Click="Button_Click" >
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <LinearGradientBrush.RelativeTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                        <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                                        <RotateTransform Angle="-30" CenterX="0.5" CenterY="0.5"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </LinearGradientBrush.RelativeTransform>
+                                <GradientStop Color="#FF3D9CC7" Offset="1"/>
+                                <GradientStop Color="#FF6F5FFE" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+            </Border>
+        </ScrollViewer>
     </Grid>
 </Window>
