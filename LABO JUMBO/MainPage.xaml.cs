@@ -19,6 +19,10 @@ namespace LABO_JUMBO
     /// </summary>
     public partial class MainPage : Window
     {
+        public MainPage()
+        {
+            InitializeComponent();
+        }
         public MainPage(string log)
         {
             InitializeComponent();
