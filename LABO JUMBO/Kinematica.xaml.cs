@@ -29,5 +29,11 @@ namespace LABO_JUMBO
             Laba1Calc laba1Calc = new Laba1Calc();
             laba1Calc.Show();
         }
+        private void ButtonClick(object sender, RoutedEventArgs e)
+        {
+            MainPage mainPage = new MainPage();
+            mainPage.Show();
+            this.Close();
+        }
     }
 }
