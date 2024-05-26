@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LABO_JUMBO"
         mc:Ignorable="d"
-        Title="LABO JUMBO"  WindowStartupLocation="CenterScreen" WindowState="Maximized"  MinHeight="700" MinWidth="900"  FontFamily="Eurostile Bold" FontSize="14" Height="1713" Width="1920">
+        Title="LABO JUMBO"  WindowStartupLocation="CenterScreen" WindowState="Maximized"  MinHeight="700" MinWidth="900"  FontFamily="Eurostile Bold" FontSize="14" Height="1958" Width="1920">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/fon3.jpg" Stretch="UniformToFill"/>
@@ -60,6 +60,8 @@
                             </Button.Background>
                         </Button>
                     </StackPanel>
+                    <TextBlock Text = "Вывод" TextAlignment="Center" FontSize="48"/>
+                    <TextBox x:Name="laba1vyvod" Height="300" AcceptsReturn="True" TextWrapping="Wrap" AcceptsTab="True" FontFamily="Eurostile" FontSize="16"/>
                 </StackPanel>
             </Border>
         </ScrollViewer>
