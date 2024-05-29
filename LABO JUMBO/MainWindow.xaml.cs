@@ -38,12 +38,12 @@ namespace LABO_JUMBO
                 List<User> users = new List<User>();
                 users = User.LoadAllUsers();
 
-                if (login.Text != "" && password.Text != "")
+                if (login.Text != "" && password.Password != "")
                 {
                     if (users.Where(x => x.login == login.Text).FirstOrDefault() != null)
                     {
                         User user = users.Where(x => x.login == login.Text).FirstOrDefault();
-                        if (user.IsPasswordCorrect(password.Text))
+                        if (user.IsPasswordCorrect(password.Password))
                         {
                             MainPage main = new MainPage(user.login);
                             main.Show();
@@ -56,7 +56,6 @@ namespace LABO_JUMBO
                 else { MessageBox.Show("Заполните все поля", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error); }
             }
         }
-
         private void Register(object sender, RoutedEventArgs e)
         {
             Registration reg = new Registration();

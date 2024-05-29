@@ -19,14 +19,22 @@ namespace LABO_JUMBO
     /// </summary>
     public partial class MainPage : Window
     {
-        public MainPage(string log)
+        string log;
+
+        public MainPage()
+        {
+            InitializeComponent();
+        }
+        public MainPage(string _log)
         {
             InitializeComponent();
 
-            if (log != "")
+            if (_log != "")
             {
-                User user = User.LoadUserByLogin(log);
+                User user = User.LoadUserByLogin(_log);
                 userTextBlock.Text += user.NameAndSurname();
+
+                log = _log;
             }
             else
             {
@@ -36,8 +44,9 @@ namespace LABO_JUMBO
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Laba1Calc calc = new Laba1Calc();
-            calc.Show();
+            Kinematica kinematica = new Kinematica(log);
+            kinematica.Show();
+            this.Close();
         }
     }
 }

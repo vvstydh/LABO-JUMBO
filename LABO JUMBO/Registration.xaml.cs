@@ -41,12 +41,22 @@ namespace LABO_JUMBO
                     using (StreamWriter sw = new StreamWriter("users.txt", true))
                     {
                         sw.WriteLine(user.ToString());
+                        MainWindow main = new MainWindow();
+                        main.Show();
+                        this.Close();
                     }
                 }
                 else { MessageBox.Show("Такой логин уже существует", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error); }
             }
             else { MessageBox.Show("Заполните все поля", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error); }
             
+        }
+
+        private void home_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            main.Show();
+            this.Close();
         }
     }
 }
