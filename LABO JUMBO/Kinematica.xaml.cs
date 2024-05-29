@@ -39,7 +39,6 @@ namespace LABO_JUMBO
                 log = "";
             }
         }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Laba1Calc laba1Calc = new Laba1Calc();
@@ -51,7 +50,6 @@ namespace LABO_JUMBO
             mainPage.Show();
             this.Close();
         }
-
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
             if(laba1vyvod.Text != "")

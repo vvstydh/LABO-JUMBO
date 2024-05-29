@@ -26,6 +26,10 @@
                     <TextBlock TextAlignment="Center" FontSize="24" FontFamily="Eurostile" TextWrapping="Wrap" Text = "1 – Основание, 2 – Винт регулировки, 3 – Привеска, 4 – Спица, 5 – Барабан, 6 – Нить, 7 – Блок, 8 – Стойка, 9 – Грузик."/>
                     <Image Height="350" Width="600" Source="/laba2img.png" Margin="0 20 0 0"/>
                     <TextBlock TextAlignment="Center" FontSize="24" FontFamily="Eurostile" TextWrapping="Wrap" Text = "Передняя панель установки"/>
+                    <TextBlock Text = "   3) Ход работы:" TextAlignment="Justify" FontSize="24" FontFamily="Eurostile" Margin="0 20 0 0"/>
+                    <TextBlock Text = "     1. Изучите" TextAlignment="Justify" FontSize="24" FontFamily="Eurostile" Margin="0 20 0 0"/>
+                    <TextBlock Text = "     2. Рассчитайте" TextAlignment="Justify" FontSize="24" FontFamily="Eurostile" Margin="0 20 0 0"/>
+                    <TextBlock Text = "     3. Напишите вывод" TextAlignment="Justify" FontSize="24" FontFamily="Eurostile" Margin="0 20 0 0"/>
                     <StackPanel Orientation="Horizontal">
                     <Button Content="Калькулятор" materialDesign:ButtonAssist.CornerRadius="30" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="2"  Width="500" Height="60" Style="{StaticResource MaterialDesignFlatDarkBgButton}" Margin="50 20 0 0" BorderBrush="{x:Null}" Click="Button_Click" >
                         <Button.Background>

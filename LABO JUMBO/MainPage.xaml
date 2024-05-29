@@ -52,7 +52,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="Изучение распределения Больцмана" materialDesign:ButtonAssist.CornerRadius="30" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1"  Width="720" Height="60" Grid.Column="2" Grid.ColumnSpan="4" Style="{StaticResource MaterialDesignFlatDarkBgButton}" BorderBrush="{x:Null}" >
+        <Button Content="Изучение распределения Больцмана" materialDesign:ButtonAssist.CornerRadius="30" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1"  Width="720" Height="60" Grid.Column="2" Grid.ColumnSpan="4" Style="{StaticResource MaterialDesignFlatDarkBgButton}" BorderBrush="{x:Null}" Click="Button_Click_1" >
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <LinearGradientBrush.RelativeTransform>
@@ -68,7 +68,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="Изучение магнитного поля кругового" materialDesign:ButtonAssist.CornerRadius="30" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2"  Width="720" Height="60" Grid.Column="2" Grid.ColumnSpan="4" Style="{StaticResource MaterialDesignFlatDarkBgButton}" Margin="0 0 0 100" BorderBrush="{x:Null}" >
+        <Button Content="Изучение магнитного поля кругового" materialDesign:ButtonAssist.CornerRadius="30" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2"  Width="720" Height="60" Grid.Column="2" Grid.ColumnSpan="4" Style="{StaticResource MaterialDesignFlatDarkBgButton}" Margin="0 0 0 100" BorderBrush="{x:Null}" Click="Button_Click_2" >
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <LinearGradientBrush.RelativeTransform>

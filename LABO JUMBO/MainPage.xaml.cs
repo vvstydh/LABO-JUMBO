@@ -48,5 +48,15 @@ namespace LABO_JUMBO
             kinematica.Show();
             this.Close();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("В разработке :(", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("В разработке :(", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+        }
     }
 }
