@@ -19,18 +19,22 @@ namespace LABO_JUMBO
     /// </summary>
     public partial class MainPage : Window
     {
+        string log;
+
         public MainPage()
         {
             InitializeComponent();
         }
-        public MainPage(string log)
+        public MainPage(string _log)
         {
             InitializeComponent();
 
-            if (log != "")
+            if (_log != "")
             {
-                User user = User.LoadUserByLogin(log);
+                User user = User.LoadUserByLogin(_log);
                 userTextBlock.Text += user.NameAndSurname();
+
+                log = _log;
             }
             else
             {
@@ -40,7 +44,7 @@ namespace LABO_JUMBO
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Kinematica kinematica = new Kinematica();
+            Kinematica kinematica = new Kinematica(log);
             kinematica.Show();
             this.Close();
         }

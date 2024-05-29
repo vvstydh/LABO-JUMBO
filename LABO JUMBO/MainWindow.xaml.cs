@@ -62,10 +62,5 @@ namespace LABO_JUMBO
             reg.Show();
             this.Close();
         }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            password.Visibility = Visibility.Hidden;
-        }
     }
 }
